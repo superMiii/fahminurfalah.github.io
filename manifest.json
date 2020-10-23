@@ -1,0 +1,17 @@
+{
+    "name": "Warta Bola App",
+    "short_name": "Warta Bola",
+    "description": "Aplikasi PWA Warta Bola",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#000080",
+    "theme_color": "#000080",
+    "gcm_sender_id": "978715431924",
+    "icons": [
+        {
+            "src": "icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
