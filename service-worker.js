@@ -44,6 +44,12 @@ workbox.routing.registerRoute(
   })
 );
 
+workbox.routing.registerRoute(
+  ({url}) => url.origin === 'https://fonts.googleapis.com',
+  workbox.strategies.staleWhileRevalidate({
+    cacheName: 'fetch-font-icon-google',
+  })
+);
 
 self.addEventListener('push', function(event) {
   var body;
